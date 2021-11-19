@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="52" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="52" time="1.066">
+    <testcase classname="feature to test create Assignment" name="User chooses batch" time="0.088">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User clicks on Batch Name dropdown.....................................skipped
+Then User can view the list of batches......................................skipped
+And User is able to select one batch........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="User enters Assignment name" time="0.008">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User chooses a batch...................................................skipped
+And User clicks on Assignment Name..........................................skipped
+Then User is able to enter Assignment name..................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="User enters assignment Description" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User chooses a batch...................................................skipped
+And User clicks on Assignment Description...................................skipped
+Then User is able to enter assignment Descriptions..........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="User creating assignment with blank Assignment name field" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User chooses a batch...................................................skipped
+And User Enters description.................................................skipped
+And User Enters date........................................................skipped
+And User clicks on Submit button............................................skipped
+Then Error message displays for blank Assignment name.......................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="User creating assignment with blank due date" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User chooses a batch...................................................skipped
+And User Enters assignment name.............................................skipped
+And User Enters Assignment description......................................skipped
+And User clicks on Submit button............................................skipped
+Then Error message displays for blank Date..................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="User creating assignment with past due date" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User chooses a batch...................................................skipped
+And User Enters Assignment name.............................................skipped
+And User Enters Assignment description......................................skipped
+And User Selects due date in the past.......................................skipped
+And User clicks on Submit button............................................skipped
+Then Error message displays for past due Date...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="User creating assignment with 1 File Assignment Attachment" time="0.005">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User chooses a batch...................................................skipped
+And User Enters Assignment name.............................................skipped
+And User Enters Assignment description......................................skipped
+And User Selects valid Due date.............................................skipped
+And User Uploads 1 File attachment of Size less than 5 mb...................skipped
+And User clicks on Submit button............................................skipped
+Then Assignment will be created.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="User creating assignment with 5 Assignment File Attachment" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User chooses a batch...................................................skipped
+And User Enters Assignment name.............................................skipped
+And User Enters Assignment description......................................skipped
+And User enters valid Due date..............................................skipped
+And User Uploads 5 File attachment of Size less than 5 mb...................skipped
+And User clicks on Submit button............................................skipped
+Then Assignment will be created.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="Check maximum number of assignment that can be submitted" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When Count total number of File attachment links present....................skipped
+Then Maximum number of attachment links should be 5.........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test create Assignment" name="To check if New assignment notifications are sent to students" time="0.005">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User clicks on Add assignment button...................................skipped
+Then Check if User is navigated to add assignments page.....................skipped
+When User creates new assignment and submits................................skipped
+Then Student from that batch gets notification about it.....................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/CreateAsgmnt.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Display of the Batch Dropdown" time="0.011">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+When User should be able to view the "Batch" label..........................skipped
+And clicks on the Batch dropdown............................................skipped
+Then All the Batch name should display in the dropdown......................skipped
+And User is able to select one of the option from the dropdown..............skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validates the Assignment Name Dropdown display" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Option is selected from the Batch dropdown..............................skipped
+When User is able to view the Assignment Name label.........................skipped
+And User clicks on the Assignment Name dropdown.............................skipped
+Then User will be able to view the options in the dropdown..................skipped
+And to select anyone of the option from the dropdown........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validates the Assignment Date Dropdown display" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+When User is able to view the Assignment Date label.........................skipped
+And User clicks on the Assignment Date dropdown.............................skipped
+Then Date dialog box will display...........................................skipped
+And User should be able to select the date using the date dialog box........skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the student field" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected.......skipped
+When User should be able to view the Students label.........................skipped
+And Textbox of the Students field should be disabled and prepoulated........skipped
+Then User should not be able to update the textbox..........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the Assignment description field" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected.......skipped
+When User is able to view the subdesc label with a textbox..................skipped
+And Textbox of the Description field should be disabled and prepoulated.....skipped
+Then User should not be able to update the textbox..........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the Subcomments field" time="0.007">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected.......skipped
+When User should be able to view the Subcomments label......................skipped
+And Textbox should be enabled...............................................skipped
+Then User should be able to enter the values in the textbox.................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the Assignment files that have been uploaded" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected with one of the option.skipped
+When User should be able to view the labels Sub1, Sub2, Sub3, Sub4, Sub5....skipped
+And Uploaded files should be displayed......................................skipped
+Then click the files........................................................skipped
+And files should be downloaded..............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the SubDateTime field" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected with one of the option.skipped
+When User should be able to view the SubDateTime label......................skipped
+And Date field should be disabled and prepopulated with the values..........skipped
+Then User should not be able to update the Subdatetime field................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the Graded By field" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected with one of the option.skipped
+When User should be able to view the GradedBy label.........................skipped
+And Dropdown should be displayed with the option............................skipped
+Then User selects the value from the dropdown...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the Grade field" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+Given User is on the Manage Submissions page................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected with one of the option.skipped
+When User should be able to view the Grade label............................skipped
+And Dropdown should be displayed with the option............................skipped
+Then User selects the value from the dropdown...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validate the Make Grades Visible checkbox" time="0">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+And Batch, Assignment Name, Assignment Date option should be selected with one of the options.skipped
+When User should be able to view the Make Grades Visible label..............skipped
+And Checkbox should be enabled..............................................skipped
+Then User should be able to select the checkbox.............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test LMS Manage Grades Page" name="Validates the Submit button" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on the LMS Home page..........................................failed
+And clicks on the Manage Assignments link...................................skipped
+When clicks on the Manage button............................................skipped
+Then Manage Submissions page should display.................................skipped
+And Batch, Assignment Name, Assignment Date, Graded By, Grade option Values are selected.skipped
+When Select the Make Grades Visible checkbox................................skipped
+And Clicks on the Submit buton..............................................skipped
+Then Message has to be displayed............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.manageGrades.user_is_on_the_lms_home_page(manageGrades.java:50)
+	at ✽.User is on the LMS Home page(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/LMSManagegrades.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="Clicking on Edit Assignment shows the existing assignment" time="0.005">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+Then That selected assignment shows up in Edit Page.........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="Scenario to check if existing assignment name is editable" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User edits the existing assignment name and submits....................skipped
+Then Assignment should be updated with new assignment name..................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="User deletes existing assignment name and submits" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User deletes the existing assignment name and submits..................skipped
+Then There is error message for blank assignment name.......................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="Scenario to check if existing assignment description is editable" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User edits the existing assignment description and submits.............skipped
+Then Assignment should be updated with new assignment description...........skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="User deletes existing assignment description and submits" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User deletes the existing assignment description and submits...........skipped
+Then There is error message for blank assignment description................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="Scenario to check if Due date is editable" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User changes the assignment due date and submits.......................skipped
+Then Assignment should be updated with new due date.........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="Scenario to check if past date can be selected" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User enters a invalid_past_date........................................skipped
+Then There is error message for invalid due date............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="Scenario to check if the assignment file attachments can be deleted" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User deletes all the existing assignment file attachments and submits..skipped
+Then Assignment is updated for deleting files...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="Scenario to check all the five new assignment files can be attached" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User uploads all the new assignment files and submits..................skipped
+Then Assignment is updated with new five files..............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature to test edit assignment" name="To check if edit notifications are sent to students" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is logged in as an admin or staff................................failed
+And User is on manage assignments page......................................skipped
+When User selects an assignment from the list/table.........................skipped
+And Clicks on Edit button...................................................skipped
+Then User is navigated to the Edit Assignments page.........................skipped
+When User edits assignment details and submits..............................skipped
+Then Student from that batch gets notification about Assign Edited..........skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignments.user_is_logged_in_as_an_admin_or_staff(ManageAssignments.java:61)
+	at ✽.User is logged in as an admin or staff(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignments.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To test delete assignment" name="User clicking on delete button for assignments should give warning" time="0.005">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on Manage Assignment Page and chooses a batch.................failed
+When User selects an assignment from the list/table.........................skipped
+And User Clicks on Delete button............................................skipped
+Then There should be an warning which needs user confirmation to proceed with deletion.skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignmentsDelete.user_is_on_manage_assignment_page_and_chooses_a_batch(ManageAssignmentsDelete.java:57)
+	at ✽.User is on Manage Assignment Page and chooses a batch(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignmentsDelete.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To test delete assignment" name="User deleting the existing assignments" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on Manage Assignment Page and chooses a batch.................failed
+When User selects an assignment from the list/table.........................skipped
+And User Clicks on Delete button and confirms...............................skipped
+Then The selected assignment is deleted.....................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignmentsDelete.user_is_on_manage_assignment_page_and_chooses_a_batch(ManageAssignmentsDelete.java:57)
+	at ✽.User is on Manage Assignment Page and chooses a batch(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignmentsDelete.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To test delete assignment" name="To check if delete notifications are sent to students" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is on Manage Assignment Page and chooses a batch.................failed
+When User selects an assignment from the list/table.........................skipped
+When User deletes assignment................................................skipped
+Then Student from that batch gets notification about deletion...............skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageAssignmentsDelete.user_is_on_manage_assignment_page_and_chooses_a_batch(ManageAssignmentsDelete.java:57)
+	at ✽.User is on Manage Assignment Page and chooses a batch(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/ManageAssignmentsDelete.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if  batch is displayed and not editable" time="0.005">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user page............................skipped
+When student try to change the batch name...................................skipped
+Then batch name cannot be edited............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if correct assignment name is displayed" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user page............................skipped
+When student selects an assignment..........................................skipped
+Then all the assignments for this batch should be displayed.................skipped
+And student able to select an assignment....................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if assignment is already released" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user page............................skipped
+When student selects an assignment..........................................skipped
+And assignment grades are already released..................................skipped
+Then error message should be displayed......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if assignment file is properly downloaded" time="0.003">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user view............................skipped
+When student selects an assignment..........................................skipped
+And assignment grades are already released..................................skipped
+Then student can view the grade.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if assignment description is displayed" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user page............................skipped
+When student selects an assignment..........................................skipped
+And assignment grade is not released........................................skipped
+And staff had added description.............................................skipped
+Then assignment description should be displayed.............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if assignment due date is displayed" time="0.001">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user page............................skipped
+When student selects an assignment..........................................skipped
+And assignment grade is not released........................................skipped
+Then assignment due date should be displayed................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if download assignment click is displayed" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user view............................skipped
+When student selects an assignment..........................................skipped
+And assignment grade is not released........................................skipped
+Then download assignment link should be displayed and enabled...............skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if student can download assignment file" time="0.001">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user view............................skipped
+And student selects an assignment...........................................skipped
+And assignment grade is not released........................................skipped
+And assignment download link is enabled.....................................skipped
+When student clicks the download assignment link............................skipped
+Then file should get downloaded to the respective folder....................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to check if student is able to download the assignment" name="To check if assignment file is properly downloaded" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on manage assignments user view............................skipped
+And student selects an assignment...........................................skipped
+And assignment grade is not released........................................skipped
+When student clicks the download assignment link............................skipped
+Then file should exist in destination folder................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/downloadassignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Navigate to the Manage Submission page" name="Admin navigates to the Manage Assignments page" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given Admin is at the LMS Main login page...................................passed
+When Admin clicks on the login button.......................................failed
+And Enters the login details at the login screen............................skipped
+And Admin clicks on the Submit button.......................................skipped
+Then Admin navigates to the Program list page...............................skipped
+Given Admin is at the Program List page.....................................skipped
+And Manage Assignments link is displayed in the page........................skipped
+When Click on the Manage Assignments link...................................skipped
+Then Admin navigates to the Manage Assignments page.........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageSubmissions.admin_clicks_on_the_login_button(ManageSubmissions.java:37)
+	at ✽.Admin clicks on the login button(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/navigatestomanagegrade.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Navigate to the Manage Submission page" name="Admin navigates to the Manage Submissions page" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given Admin is at the LMS Main login page...................................passed
+When Admin clicks on the login button.......................................failed
+And Enters the login details at the login screen............................skipped
+And Admin clicks on the Submit button.......................................skipped
+Then Admin navigates to the Program list page...............................skipped
+Given Admin is at the Manage Assignments page...............................skipped
+And Manage button is enabled under the Assignment Grade.....................skipped
+When Click on the Manage button.............................................skipped
+Then Admin navigates to the Manage Submissions page.........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.ManageSubmissions.admin_clicks_on_the_login_button(ManageSubmissions.java:37)
+	at ✽.Admin clicks on the login button(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/navigatestomanagegrade.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To verify the Grades in the notification" name="To view the notifications" time="0.004">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given Student is at the LMS Home Page.......................................passed
+When Student clicks on the login button.....................................failed
+And Enters the username and password........................................skipped
+And clicks on the Login button..............................................skipped
+Then LMS Home page displays.................................................skipped
+Given User is at the LMS Home page..........................................skipped
+When clicks on the Notification link........................................skipped
+Then User should be able to view the Grades.................................skipped
+And clicks on the Grades link...............................................skipped
+Then Student can view their Grades..........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.GradeNofication.student_clicks_on_the_login_button(GradeNofication.java:25)
+	at ✽.Student clicks on the login button(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/notification.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To check if student is able to submit and resubmit assignment" name="To check if student is able to upload within duedate" time="0.005">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on lms manage assignments user view page...................skipped
+And student selects an assignment that is not yet released..................skipped
+When student clicks the upload link.........................................skipped
+Then selected file should get attached next to the upload link..............skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/uploadAssignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To check if student is able to submit and resubmit assignment" name="To check if student is able to submit the assignment file" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on lms manage assignments user view page...................skipped
+And student successfully uploaded assignment file...........................skipped
+And student enters comments for assignment..................................skipped
+When student clicks the submit button.......................................skipped
+Then assignment file should be submitted successfully.......................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/uploadAssignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To check if student is able to submit and resubmit assignment" name="To check Submit button is enabled for first time assignment upload" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on lms manage assignments user view page...................skipped
+And student has not submitted any assignment so far.........................skipped
+When student selects an assignment that is not yet released.................skipped
+Then only submit button should be displayed and enabled.....................skipped
+And Resubmit button should not be displayed.................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/uploadAssignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To check if student is able to submit and resubmit assignment" name="To check if Resubmit Assignment button is displayed" time="0.001">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on lms manage assignments user view page...................skipped
+And student submitted assignment file already...............................skipped
+When student selects an assignment that is not yet released.................skipped
+Then Resubmit button should be displayed and enabled........................skipped
+And Submit button is not displayed and enabled..............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/uploadAssignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To check if student is able to submit and resubmit assignment" name="To check if student is asked to confirm for resubmit" time="0.002">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given when student is active................................................failed
+And student successfully logged into lms home page..........................skipped
+When student clicks Manage assignments......................................skipped
+Then student is navigated to Manage Assignments user page...................skipped
+Given student is on lms manage assignments user view page...................skipped
+And student submitted assignment file already...............................skipped
+And student selects an assignment that is not yet released..................skipped
+And student successfully uploaded assignment file...........................skipped
+When student clicks the Resubmit button.....................................skipped
+Then assignment should be resubmitted successfully..........................skipped
+And previous assignments should be deleted..................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.submitAssgnStep.when_student_user_is_on_lms_website(submitAssgnStep.java:49)
+	at ✽.when student is active(file:///C:/Users/supri/eclipse-workspace/Cucumberproject/src/test/resources/Features/uploadAssignment.feature:4)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
